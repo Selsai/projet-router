@@ -1,11 +1,9 @@
-import "../styles/Footer.css";
-
 const Footer = () => {
-  return (
-    <footer className="footer text-white text-center py-2">
-      Footer
-    </footer>
-  );
-};
+    return (
+      <footer className="bg-dark text-white text-center py-2">
+        <p>Footer</p>
+      </footer>
+    );
+  };
 
-export default Footer;
+  export default Footer;
