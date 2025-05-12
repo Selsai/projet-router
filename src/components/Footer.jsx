@@ -1,5 +1,11 @@
-const Footer = () => {
-    return <p>Footer</p>;
-  };
+import "../styles/Footer.css";
 
-  export default Footer;
+const Footer = () => {
+  return (
+    <footer className="footer text-white text-center py-2">
+      Footer
+    </footer>
+  );
+};
+
+export default Footer;
